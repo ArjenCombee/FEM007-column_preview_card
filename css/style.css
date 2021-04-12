@@ -1,0 +1,40 @@
+:root {
+  --color-primary-orange: hsl(31, 77%, 52%);
+  --color-primary-cyan: hsl(184, 100%, 22%);
+  --color-primary-dark_cyan: hsl(179, 100%, 13%);
+  /* paragraphs */
+  --color-neutral-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --color-neutral-gray: hsl(0, 0%, 95%);
+
+  --font-body: 'Lexend Deca', sans-serif;
+  --font-heading: 'Big Shoulders Display', cursive;
+}
+
+/* BASIC STYLES */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+img {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* FRONTEND MENTOR STYLES */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
