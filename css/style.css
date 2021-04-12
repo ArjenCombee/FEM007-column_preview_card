@@ -102,11 +102,10 @@ a {
   .container {
     display: flex;
     justify-content: center;
-    /* margin: 0; */
-    max-width: 90%;
-  }
-  .card {
-    flex: 0 0 20rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    margin: 0;
+    max-width: 60rem;
   }
 }
 /* FRONTEND MENTOR STYLES */
