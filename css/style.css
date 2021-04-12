@@ -107,6 +107,9 @@ a {
     margin: 0;
     max-width: 60rem;
   }
+  .btn {
+    margin-top: 5rem;
+  }
 }
 /* FRONTEND MENTOR STYLES */
 .attribution {
